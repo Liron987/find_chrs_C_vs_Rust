@@ -27,17 +27,17 @@
 
 ### Rust (-O3):
 - Dereference Comparison: Found 38462 occurrences of 'gh'.
-- Dereference Comparison took: 15.370962ms
+- Dereference Comparison took: 357.317µs
 - Bitwise Comparison: Found 38462 occurrences of 'gh'.
-- Bitwise Comparison took: 15.837152ms
+- Bitwise Comparison took: 1.531081ms
 - Direct Comparison: Found 38462 occurrences of 'gh'.
-- Direct Comparison took: 14.465161ms
+- Direct Comparison took: 378.094µs
 
 ### Summary with Percentage Difference (-O3):
 | Comparison Type         | C Time (Seconds) | Rust Time (Seconds) | Percentage Difference (C vs Rust) |
 |-------------------------|------------------|---------------------|----------------------------------|
-| Dereference Comparison  | 0.000519         | 0.015370962         | 2905.57%                         |
-| Bitwise Comparison      | 0.000153         | 0.015837152         | 10362.12%                        |
-| Direct Comparison       | 0.000363         | 0.014465161         | 3885.71%                         |
+| Dereference Comparison  | 0.000519         | 0.000357317         | -31.2%                           |
+| Bitwise Comparison      | 0.000153         | 0.001531081         | 899.2%                           |
+| Direct Comparison       | 0.000363         | 0.000378094         | 4.2%                             |
 
 

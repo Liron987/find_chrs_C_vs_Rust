@@ -33,7 +33,7 @@
 - Direct Comparison: Found 38462 occurrences of 'gh'.
 - Direct Comparison took: 14.465161ms
 
-### Summary with Percentage Difference:
+### Summary with Percentage Difference (-O3):
 | Comparison Type         | C Time (Seconds) | Rust Time (Seconds) | Percentage Difference (C vs Rust) |
 |-------------------------|------------------|---------------------|----------------------------------|
 | Dereference Comparison  | 0.000519         | 0.015370962         | 2905.57%                         |

@@ -9,13 +9,22 @@
 - Direct Comparison: Found 38462 occurrences of 'gh'.
 - Direct Comparison took: 0.001782 seconds
 
-### C (-O3):
+### C (-O3, GCC):
 - Dereference Comparison: Found 38462 occurrences of 'gh'.
 - Dereference Comparison took: 0.000519 seconds
 - Bitwise Comparison: Found 38462 occurrences of 'gh'.
 - Bitwise Comparison took: 0.000153 seconds
 - Direct Comparison: Found 38462 occurrences of 'gh'.
 - Direct Comparison took: 0.000363 seconds
+
+### C (-O3, LLVM):
+- Dereference Comparison: Found 38462 occurrences of 'gh'.
+- Dereference Comparison took: 0.000252 seconds
+- Bitwise Comparison: Found 38462 occurrences of 'gh'.
+- Bitwise Comparison took: 0.000388 seconds
+- Direct Comparison: Found 38462 occurrences of 'gh'.
+- Direct Comparison took: 0.000223 seconds
+
 
 ### Rust (-O0):
 - Dereference Comparison: Found 38462 occurrences of 'gh'.
@@ -36,8 +45,9 @@
 ### Summary with Percentage Difference (-O3):
 | Comparison Type         | C Time (Seconds) | Rust Time (Seconds) | Percentage Difference (C vs Rust) |
 |-------------------------|------------------|---------------------|----------------------------------|
-| Dereference Comparison  | 0.000519         | 0.000357317         | -31.2%                           |
-| Bitwise Comparison      | 0.000153         | 0.001531081         | 899.2%                           |
-| Direct Comparison       | 0.000363         | 0.000378094         | 4.2%                             |
+| Dereference Comparison  | 0.000252         | 0.000357317         | 41.8%                            |
+| Bitwise Comparison      | 0.000388         | 0.001531081         | 294.3%                           |
+| Direct Comparison       | 0.000223         | 0.000378094         | 69.5%                            |
+
 
 
